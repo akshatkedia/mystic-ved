@@ -10,3 +10,14 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  mystic-ved
 */
+
+@import "https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css";
+
+.site-search {
+  display: none;
+}
+
+.woocommerce-active .site-branding {
+  float: none;
+  margin: auto;
+}
