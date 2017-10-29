@@ -12,3 +12,5 @@ add_theme_support('soil-js-to-footer');
 add_theme_support('soil-nav-walker');
 add_theme_support('soil-nice-search');
 add_theme_support('soil-relative-urls');
+
+add_image_size('mystic-ved-slider-image-desktop', 1440, 563, true);

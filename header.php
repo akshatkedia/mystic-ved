@@ -62,9 +62,10 @@
 					<?php while ( have_rows('slide') ) : the_row(); ?>
 						<?php
 							$image = get_sub_field('image');
+							$size = 'mystic-ved-slider-image-desktop';
 						?>
 						<div>
-							<img src="<?= $image['url']; ?>" alt="<?= $image['alt']; ?>">
+							<?= wp_get_attachment_image( $image['ID'], $size ); ?>
 						</div>
 					<?php endwhile; ?>
 				</div>
