@@ -14,3 +14,11 @@ add_theme_support('soil-nice-search');
 add_theme_support('soil-relative-urls');
 
 add_image_size('mystic-ved-slider-image-desktop', 1440, 563, true);
+
+function storefront_credit() {
+?>
+  <div class="site-info">
+    <?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_bloginfo( 'name' ) . ' ' . date( 'Y' ) ) ); ?>
+  </div><!-- .site-info -->
+  <?php
+}
